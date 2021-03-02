@@ -1,6 +1,6 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
 ![License][license-shield]
 ![Commit][commit-shield]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br>
 <p align="center">
@@ -53,5 +53,5 @@ This clone website is built with javascript with different technology.
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/in/chee-chong-8bb538204
 [license-shield]: https://img.shields.io/github/license/cheechongtey/instagram-clone-for-training?color=orange&style=for-the-badge
-[commit-shield]: https://img.shields.io/github/last-commit/cheechongtey/instagram-clone-for-training?color=purple&style=for-the-badge
-[product-screenshot] : https://github.com/cheechongtey/instagram-clone-for-training/clone.png
+[commit-shield]: https://img.shields.io/github/last-commit/cheechongtey/instagram-clone-for-training?color=yellow&style=for-the-badge
+[product-screenshot]: https://github.com/cheechongtey/instagram-clone-for-training/clone.png
