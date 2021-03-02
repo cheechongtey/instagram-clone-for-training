@@ -1,0 +1,16 @@
+.fAOlie {
+    width: 6px;
+    height: 6px;
+    margin: 0px 2px;
+    background: rgb(218, 219, 220);
+    border-radius: 50%;
+    transition: width 300ms ease-in-out 0s, height 300ms ease-in-out 0s, margin 300ms ease-in-out 0s;
+
+    &.active {
+        background: rgb(78, 153, 233) !important;
+    }
+}
+
+.alice-carousel__dots {
+    margin-top: 10px !important;
+}

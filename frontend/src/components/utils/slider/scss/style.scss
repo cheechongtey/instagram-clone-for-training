@@ -1,0 +1,144 @@
+.slider {
+    height: 689.28px;
+    width: 387.72px;
+    transform: translate(111.666px) scale(0.4);
+    position: absolute;
+    left: 0px;
+    transform-origin: left center;
+
+    .slider__container {
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+
+        .slider__body {
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            .item__background {
+                bottom: -1px;
+                height: calc(100% + 2px);
+                left: -1px;
+                position: absolute;
+                right: -1px;
+                top: -1px;
+                width: calc(100% + 2px);
+
+                &.unseen {
+                    background: -webkit-gradient(
+                        linear,
+                        left top,
+                        left bottom,
+                        from(rgba(38, 38, 38, 0.6)),
+                        to(rgba(38, 38, 38, 0))
+                    );
+                    background: -webkit-linear-gradient(top, rgba(38, 38, 38, 0.6) 0%, rgba(38, 38, 38, 0) 100% #000);
+                    background: linear-gradient(180deg, rgba(38, 38, 38, 0.6) 0%, rgba(38, 38, 38, 0) 100% #000);
+                }
+
+                &.seen {
+                    background: rgba(38, 38, 38, 0.7);
+                }
+            }
+
+            .item__user {
+                height: 100%;
+                top: 0;
+                right: 0;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 auto;
+                -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-align-content: stretch;
+                -ms-flex-line-pack: stretch;
+                align-content: stretch;
+
+                .user__wrapper {
+                    -webkit-transform: scale(2.5);
+                    transform: scale(2.5);
+
+                    .user__avatar {
+                        -webkit-box-align: center;
+                        -webkit-align-items: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-align-self: center;
+                        -ms-flex-item-align: center;
+                        align-self: center;
+                        display: block;
+                        -webkit-box-flex: 0;
+                        -webkit-flex: none;
+                        -ms-flex: none;
+                        flex: none;
+                        -webkit-box-pack: center;
+                        -webkit-justify-content: center;
+                        -ms-flex-pack: center;
+                        justify-content: center;
+                    }
+
+                    .user__name,
+                    .user__timeline {
+                        margin-top: 16px;
+                        -webkit-box-flex: 0;
+                        -webkit-flex: 0 0 auto;
+                        -ms-flex: 0 0 auto;
+                        flex: 0 0 auto;
+                        justify-content: flex-start;
+                        align-items: stretch;
+                        align-content: stretch;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// div {
+//     -webkit-box-align: stretch;
+//     -webkit-align-items: stretch;
+//     -ms-flex-align: stretch;
+//     align-items: stretch;
+//     border: 0 solid #000;
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-orient: vertical;
+//     -webkit-box-direction: normal;
+//     -webkit-flex-direction: column;
+//     -ms-flex-direction: column;
+//     flex-direction: column;
+//     -webkit-flex-shrink: 0;
+//     -ms-flex-negative: 0;
+//     flex-shrink: 0;
+//     margin: 0;
+//     padding: 0;
+//     position: relative;
+// }

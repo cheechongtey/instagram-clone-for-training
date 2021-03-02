@@ -1,0 +1,29 @@
+.avatar--size-30 {
+    height: 3rem;
+    width: 3rem;
+}
+
+.tw-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tw-line-height-heading {
+    line-height: 1.2 !important;
+}
+
+.side-nav {
+    height: var(--sidebar-height);
+    width: var(--sidebar-actual-width);
+    min-width: var(--sidebar-minimum-width);
+}
+
+.side-nav__overlay-wrapper {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05), 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-height {
+    height: calc(var(--sidebar-height) / 2);
+}

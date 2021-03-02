@@ -1,0 +1,72 @@
+.downshift-dropdown {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    border-bottom: none;
+    position: absolute;
+}
+
+.downshift-item {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+
+    .child-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+.downshift-button {
+    padding: 0.6rem;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+}
+
+.popper-div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.popper-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.child-avatar {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 0.5rem;
+
+    .child-avatar__wrapper {
+        align-items: center;
+        align-self: center;
+        display: block;
+        flex: none;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+
+        a {
+            background-color: rgba(250, 250, 250, 1);
+            border-radius: 50%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            display: block;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+}

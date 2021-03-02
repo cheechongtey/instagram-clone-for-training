@@ -1,0 +1,18 @@
+GET http://localhost:3030/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNjIiwiaWF0IjoxNjE0NjQ1MDM2LCJleHAiOjE2MTQ2NDUwODZ9.BBWjRHyNLgu75GBOaX5q4qYFnCmX1xg3NWpPVQVTzQE
+###
+
+POST http://localhost:4040/token
+Content-Type: application/json
+
+{
+    "refreshToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNjIiwiaWF0IjoxNjE0NjQ1MDM2fQ.ONUqtwVh2fAkEf2p2aXackrm69MmGYG7_4j3ystrxLE"
+}
+###
+
+POST http://localhost:4040/login
+Content-Type: application/json
+
+{
+    "username" : "cc"
+}
