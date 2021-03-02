@@ -1,11 +1,10 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![License][license-shield]
+![Commit][commit-shield]
 
-<br />
+<br>
 <p align="center">
-  <a href="https://github.com/cheechongtey/instagram-clone-for-training">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+  <br />
   <h3 align="center">Instagram Clone For Training</h3>
 
   <p align="center">
@@ -62,3 +61,5 @@ This clone website is built with javascript with different technology.
 
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/in/chee-chong-8bb538204
+[license-shield]: https://img.shields.io/github/license/cheechongtey/instagram-clone-for-training?color=blue&style=for-the-badge
+[commit-shield]: https://img.shields.io/github/last-commit/cheechongtey/instagram-clone-for-training?color=blue&style=for-the-badge
