@@ -1,5 +1,4 @@
-[![Contributors][contributors-shield]][https://github.com/cheechongtey]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/chee-chong-8bb538204/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <p align="center">
@@ -58,3 +57,8 @@ This clone website is built with javascript with different technology.
 -   [GraphQL]
 -   [ReduxJS]
 -   [SCSS]
+
+
+
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://www.linkedin.com/in/chee-chong-8bb538204
