@@ -118,49 +118,11 @@ function Sidebar() {
                             <div className="position-relative transition-group">
                                 <div className="transition-start">
                                     <div className="side-nav-card align-items-center d-flex position-relative">
-                                        <a
-                                            href="/"
-                                            className="side-nav-card__link align-items-center d-flex flex-nowrap w-100 py-2 px-3 position-relative">
-                                            <div className="side-nav-card__avatar align-items-center flex-shrink-0">
-                                                <figure aria-label="aceu" className="avatar avatar--size-30 m-0">
-                                                    <img
-                                                        className="d-block rounded-circle image image-avatar w-100"
-                                                        alt="aceu"
-                                                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/c7a4c96e-a434-4dfa-9bcf-6190995dd536-profile_image-70x70.png"
-                                                    />
-                                                </figure>
-                                            </div>
+                                        <div className="side-nav-card__link align-items-center d-flex flex-nowrap w-100 py-2 px-3 position-relative">
                                             <div className="tw-ellipsis d-flex w-100 justify-content-between">
-                                                <div className="tw-ellipsis w-100 ml-3">
-                                                    <div className="side-nav-card__title align-items-center d-flex">
-                                                        <p
-                                                            className="m-0 tw-c-text-alt tw-ellipsis flex-grow-1 tw-font-size-5 tw-line-height-heading font-weight-bold font-color-primary"
-                                                            title="aceu">
-                                                            aceu
-                                                        </p>
-                                                    </div>
-                                                    <div
-                                                        className="side-nav-card__metadata tw-pd-r-05"
-                                                        data-a-target="side-nav-game-title">
-                                                        <p
-                                                            className="m-0 tw-c-text-alt-2 tw-ellipsis tw-font-size-6 tw-line-height-heading font-color-secondary"
-                                                            title="Apex Legends">
-                                                            Apex Legends
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                {/* <div className="side-nav-card__live-status flex-shrink-0 ml-5">
-                                                                        <div className="align-items-center d-flex">
-                                                                            <div className="tw-border-radius-rounded tw-channel-status-indicator tw-channel-status-indicator--live tw-channel-status-indicator--small d-inline-block position-relative"></div>
-                                                                            <div className="ml-5">
-                                                                                <span className="tw-c-text-alt tw-font-size-6">
-                                                                                    2 New Stories
-                                                                                </span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div> */}
+                                                <div className="tw-ellipsis w-100">No new suggestion.</div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
