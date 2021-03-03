@@ -19,6 +19,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#important-notes">Important Notes</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -54,4 +55,4 @@ This clone website is built with javascript with different technology.
 [linkedin-url]: https://www.linkedin.com/in/chee-chong-8bb538204
 [license-shield]: https://img.shields.io/github/license/cheechongtey/instagram-clone-for-training?color=orange&style=for-the-badge
 [commit-shield]: https://img.shields.io/github/last-commit/cheechongtey/instagram-clone-for-training?color=yellow&style=for-the-badge
-[product-screenshot]: https://github.com/cheechongtey/instagram-clone-for-training/clone.png
+[product-screenshot]: https://github.com/cheechongtey/instagram-clone-for-training/blob/main/clone.png
